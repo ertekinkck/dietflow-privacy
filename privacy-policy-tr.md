@@ -59,8 +59,7 @@ Kullanıcılarımız:
 ## 8. İletişim
 
 Gizlilik ile ilgili sorularınız için:
-- **E-posta:** privacy@dietflowapp.com  
-- **Adres:** [Şirket Adresi veya Geliştirici İletişim Bilgisi]
+- **E-posta:** ertekin.developer@gmail.com  
 
 ## 9. Değişiklikler
 
