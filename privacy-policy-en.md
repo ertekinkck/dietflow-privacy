@@ -59,8 +59,7 @@ Our users have the right to:
 ## 8. Contact
 
 For questions about privacy, please contact us:  
-- **Email:** privacy@dietflowapp.com  
-- **Address:** [Company Address or Developer Contact Information]  
+- **Email:** ertekin.developer@gmail.com  
 
 ## 9. Changes
 
