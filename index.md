@@ -1,6 +1,6 @@
-# DietFlow Privacy Policy / Gizlilik Politikası
+# NutriSnap Privacy Policy / Gizlilik Politikası
 
-Welcome to the privacy policy page for **DietFlow**.  
+Welcome to the privacy policy page for **NutriSnap**.  
 Hoş geldiniz! Buradan gizlilik politikamıza ulaşabilirsiniz.  
 
 ## Select Language / Dil Seçin
