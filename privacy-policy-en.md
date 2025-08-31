@@ -1,72 +1,73 @@
 # Privacy Policy
 
-**Last Updated:** August 15, 2025
+**Last Updated:** August 31, 2025
 
 ## 1. Introduction
 
-At DietFlow ("application", "we", "our"), we respect the privacy of our users. This privacy policy explains the information collected when using our application and how that information is used.
+At NutriSnap ("application", "we", "our"), we take your privacy very seriously. This policy explains how our app processes data and outlines our core privacy principle: any personal nutrition data you enter is stored **only on your device** and remains under your control.
 
-## 2. Information We Collect
+## 2. What Information Do We Process?
 
-### 2.1 Camera Permission
-Our application requests access to the camera for the following purposes:
-- **Meal Photo Analysis:** Capturing photos of meals to analyze calorie and nutrient content  
-- **Barcode Scanning:** Scanning product barcodes to automatically retrieve nutrition information  
-- **Profile Photo:** Adding a user profile picture (optional)
+We categorize the information processed by our app into two groups:
 
-### 2.2 Other Collected Information
-- **Account Information:** Name, email, age, gender, height, weight  
-- **Health Data:** Target weight, activity level, dietary preferences  
-- **Usage Data:** Meal records, water consumption, fasting times  
-- **Device Information:** Device type, operating system version  
+### 2.1 User-Entered Data Stored Only on Your Device
 
-## 3. Use of Information
+The following types of information are provided by you to use the app’s features and are **never sent to our servers** or accessed by us:
 
-We use the collected information for the following purposes:
-- Creating personalized diet plans  
-- Analyzing meal photos to calculate nutritional values  
-- Progress tracking and reporting  
-- Improving application performance  
-- Enhancing user experience  
+* **Meal Records:** Notes about foods you eat, such as names, calories, and macro values.
+* **Photos:** Food photos you provide to the AI recognition feature. These photos are analyzed and then remain only on your device.
+* **Barcode Data:** Scanned barcodes to retrieve product information.
+* **Water Intake Records:** Your daily water consumption.
+* **Profile Photo (Optional):** A photo you may add to personalize the interface.
 
-## 4. Information Sharing
+**We explicitly state that** we do not request or store your name, email, age, gender, height, or weight.
 
-**We do not share information with third parties.** User data is only shared in the following cases:
-- When the user has given explicit consent  
-- When required by law  
-- When necessary for application security  
+### 2.2 Anonymous Technical Data for App Performance
 
-## 5. Data Security
+To ensure stable operation and troubleshoot issues, we may collect anonymized technical data through standard industry services such as Firebase Crashlytics. This may include:
 
-- All data is transmitted through encrypted connections  
-- Firebase’s secure infrastructure is used  
-- Regular security updates are applied  
+* **Crash Logs and Diagnostic Data:** Anonymous crash reports that help us identify why the app failed.
+* **Device Information:** Device model and operating system version, which help us understand if issues are tied to specific device types.
 
-## 6. Data Retention
+This technical data is never linked with your personal nutrition data.
 
-- User data is retained until the account is deleted  
-- Photos taken with the camera are only used for analysis and are not stored permanently  
-- Users can delete their data at any time  
+## 3. Purpose of Information Use
 
-## 7. User Rights
+* **Data Stored on Your Device:** Used only to provide the app’s basic functionality (calorie counter, daily tracking, reporting, etc.). We do not process this data for any other purpose beyond displaying it back to you in graphs and lists.
 
-Our users have the right to:  
-- Request access to their data  
-- Correct their data  
-- Request deletion of their data  
-- Restrict data processing  
+* **Anonymous Technical Data:** Used solely to detect crashes, resolve performance issues, and improve the overall user experience.
 
-## 8. Contact
+## 4. Data Sharing
 
-For questions about privacy, please contact us:  
-- **Email:** ertekin.developer@gmail.com  
+* Since we do not store your personal nutrition data on our servers, there is no data to share with third parties.
 
-## 9. Changes
+* Anonymous crash reports are processed by our service provider, Google (Firebase), to analyze issues.
 
-This privacy policy may be updated. Significant changes will be communicated to users.
+## 5. Data Security and Retention
+
+The security of your personal nutrition data depends on your device’s security, as this data never leaves your device. All information remains stored until you delete it within the app or uninstall the application.
+
+## 6. Your Right to Delete Data
+
+You have full control over your data. To permanently delete all records:
+
+1. Go to the "Settings" menu inside the app.
+2. Use the "Delete All Data" option to immediately erase your records.
+
+Alternatively, you can clear the app’s data from your phone’s system settings to remove all information permanently.
+
+## 7. Contact
+
+For any questions regarding this privacy policy, please contact us:
+
+* **Email:** \[ertekin.developer@gmail.com]
+
+## 8. Changes
+
+We may update this privacy policy from time to time. Any changes will be posted on this page.
 
 ---
 
-**Application Name:** DietFlow  
-**Package Name:** com.dietflow.app  
+**Application Name:** NutriSnap
+**Package Name:** com.macroflow\.app
 **Version:** 2.0
