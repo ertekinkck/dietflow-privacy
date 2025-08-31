@@ -1,1 +1,1 @@
-https://ertekinkck.github.io/dietflow-privacy/
+https://ertekinkck.github.io/nutrisnap-privacy/
