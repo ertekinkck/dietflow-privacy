@@ -4,69 +4,70 @@
 
 ## 1. Giriş
 
-DietFlow ("uygulama", "biz", "bizim") olarak, kullanıcılarımızın gizliliğine saygı duyuyoruz. Bu gizlilik politikası, uygulamamızı kullanırken toplanan bilgileri ve bu bilgilerin nasıl kullanıldığını açıklar.
+NutriSnap ("uygulama", "biz", "bizim") olarak, gizliliğinizin korunmasına büyük önem veriyoruz. Bu politika, uygulamamızın verileri nasıl işlediğini ve temel gizlilik prensibimizi açıklar: Girdiğiniz kişisel beslenme verileri, yalnızca sizin kontrolünüzde olan kendi cihazınızda saklanır.
 
-## 2. Topladığımız Bilgiler
+## 2. Hangi Bilgileri İşliyoruz?
 
-### 2.1 Kamera İzni
-Uygulamamız, aşağıdaki amaçlar için kamera erişimi talep eder:
-- **Yemek Fotoğrafı Analizi:** Kullanıcıların yemek fotoğraflarını çekerek kalori ve besin değeri analizi yapmak
-- **Barkod Tarama:** Ürün barkodlarını tarayarak besin bilgilerini otomatik olarak almak
-- **Profil Fotoğrafı:** Kullanıcı profil fotoğrafı eklemek (opsiyonel)
+Uygulamamızın çalışması için işlenen bilgileri iki ana kategoriye ayırıyoruz:
 
-### 2.2 Diğer Toplanan Bilgiler
-- **Hesap Bilgileri:** Ad, e-posta, yaş, cinsiyet, boy, kilo
-- **Sağlık Verileri:** Hedef kilo, aktivite seviyesi, diyet tercihleri
-- **Kullanım Verileri:** Yemek kayıtları, su tüketimi, oruç süreleri
-- **Cihaz Bilgileri:** Cihaz türü, işletim sistemi versiyonu
+### 2.1 Sizin Tarafınızdan Girilen ve Yalnızca Cihazınızda Saklanan Veriler
 
-## 3. Bilgilerin Kullanımı
+Aşağıdaki veri türleri, uygulama işlevlerini kullanabilmeniz için sizin tarafınızdan sağlanır ve sunucularımıza **ASLA** gönderilmez veya bizim tarafımızdan erişilemez:
 
-Topladığımız bilgileri şu amaçlarla kullanırız:
-- Kişiselleştirilmiş diyet planları oluşturmak
-- Yemek fotoğraflarını analiz ederek besin değerlerini hesaplamak
-- İlerleme takibi ve raporlama
-- Uygulama performansını iyileştirmek
-- Kullanıcı deneyimini geliştirmek
+- **Öğün Kayıtları:** Yediğiniz yiyeceklerin adları, kalori ve makro değerleri gibi notlarınız.
+- **Fotoğraflar:** Öğünlerinizi tanıması için yapay zeka özelliğine sağladığınız yemek fotoğrafları. Bu fotoğraflar analiz edildikten sonra yalnızca cihazınızda kalır.
+- **Barkod Bilgileri:** Ürün bilgilerini almak için tarattığınız barkodlar.
+- **Su Tüketimi Kayıtları:** Günlük su içme miktarınız.
+- **Profil Fotoğrafı (İsteğe Bağlı):** Arayüzü kişiselleştirmek için eklediğiniz profil fotoğrafı.
+
+**Açıkça belirtmek isteriz ki;** adınız, e-postanız, yaşınız, cinsiyetiniz, boyunuz veya kilonuz gibi kişisel kimlik bilgilerinizi istemiyor ve saklamıyoruz.
+
+### 2.2 Uygulama Performansı İçin Toplanan Anonim Teknik Veriler
+
+Uygulamanın istikrarlı çalışmasını sağlamak ve hataları gidermek amacıyla, Firebase Crashlytics gibi standart endüstri servisleri aracılığıyla anonimleştirilmiş teknik veriler toplayabiliriz. Bu veriler şunları içerir:
+
+- **Kilitlenme Günlükleri ve Teşhis Bilgileri:** Uygulamanın neden çöktüğünü anlamamıza yardımcı olan anonim hata raporları.
+- **Cihaz Bilgileri:** Cihaz modeli ve işletim sistemi versiyonu gibi, hataları belirli cihaz türleriyle ilişkilendirmemizi sağlayan anonim bilgiler.
+
+Bu teknik veriler, girdiğiniz kişisel beslenme verileriyle hiçbir şekilde ilişkilendirilmez.
+
+## 3. Bilgilerin Kullanım Amacı
+
+- **Cihazınızda Saklanan Veriler:** Yalnızca uygulamanın temel işlevlerini (kalori sayacı, günlük takibi, raporlama vb.) size sunmak için kullanılır. Bu verileri size grafikler ve listeler halinde geri göstermek dışında bir amaçla işlemeyiz.
+
+- **Anonim Teknik Veriler:** Yalnızca uygulamadaki hataları tespit etmek, performans sorunlarını çözmek ve genel kullanıcı deneyimini iyileştirmek amacıyla kullanılır.
 
 ## 4. Bilgi Paylaşımı
 
-**Üçüncü taraflarla bilgi paylaşmıyoruz.** Kullanıcı verileri sadece:
-- Kullanıcının açık izni olduğunda
-- Yasal zorunluluk durumunda
-- Uygulama güvenliği için gerekli olduğunda
+- Kişisel beslenme verilerinizi sunucularımızda saklamadığımız için, üçüncü taraflarla paylaşabileceğimiz bir veri bulunmamaktadır.
 
-## 5. Veri Güvenliği
+- Anonim çökme raporları, sorunu analiz etmek için hizmet sağlayıcımız olan Google (Firebase) tarafından işlenir.
 
-- Tüm veriler şifrelenmiş bağlantılar üzerinden iletilir
-- Firebase güvenli altyapısı kullanılır
-- Düzenli güvenlik güncellemeleri yapılır
+## 5. Veri Güvenliği ve Saklama
 
-## 6. Veri Saklama
+Kişisel beslenme verilerinizin güvenliği, kendi cihazınızın güvenliğine bağlıdır, çünkü bu veriler cihazınızdan asla ayrılmaz. Tüm veriler, siz onları uygulama içinden silene veya uygulamayı cihazınızdan kaldırana kadar saklanır.
 
-- Kullanıcı verileri, hesap silinene kadar saklanır
-- Kamera ile çekilen fotoğraflar sadece analiz için kullanılır ve kalıcı olarak saklanmaz
-- Kullanıcı istediği zaman verilerini silebilir
+## 6. Verilerinizi Silme Hakkınız
 
-## 7. Kullanıcı Hakları
+Verilerinizin tamamı sizin kontrolünüzdedir. Tüm verilerinizi kalıcı olarak silmek için:
 
-Kullanıcılarımız:
-- Verilerine erişim talep edebilir
-- Verilerini düzeltebilir
-- Verilerini silme talep edebilir
-- Veri işlemeyi kısıtlayabilir
+1. Uygulama içindeki "Ayarlar" menüsüne gidin.
+2. "Tüm Verileri Sil" seçeneğini kullanarak tüm kayıtlarınızı anında silebilirsiniz.
 
-## 8. İletişim
+Alternatif olarak, telefonunuzun ayarlarından uygulamanın verilerini temizlemek de tüm bilgileri kalıcı olarak silecektir.
 
-Gizlilik ile ilgili sorularınız için:
-- **E-posta:** ertekin.developer@gmail.com  
+## 7. İletişim
 
-## 9. Değişiklikler
+Bu gizlilik politikasıyla ilgili sorularınız için lütfen bizimle iletişime geçin:
 
-Bu gizlilik politikası güncellenebilir. Önemli değişiklikler kullanıcılara bildirilir.
+- **E-posta:** [ertekin.developer@gmail.com]
+
+## 8. Değişiklikler
+
+Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacaktır.
 
 ---
 
-**Uygulama Adı:** DietFlow  
-**Paket Adı:** com.dietflow.app  
+**Uygulama Adı:** NutriSnap  
+**Paket Adı:** com.macroflow.app  
 **Versiyon:** 2.0
